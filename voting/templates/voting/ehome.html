@@ -1,0 +1,127 @@
+{% load static %}
+<!DOCTYPE html>
+
+ <html class="no-js"> 
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="icon" href="12.jpg" type="image/x-icon">
+	<title>E  &mdash; VOTING</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+	
+
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="{% static 'animate.css'%}">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="{% static 'cicomoon.css'%}">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="{% static 'bootstrap.css'%}">
+	<!-- Superfish -->
+	<link rel="stylesheet" href="{% static 'superfish.css' %}">
+
+	<link rel="stylesheet" href="{% static 'style.css' %}">
+
+
+	<!-- Modernizr JS -->
+	
+
+	</head>
+	<body style="background: url(static/images/home-image1.png);">
+		<div id="fh5co-wrapper">
+		<div id="fh5co-page">
+		<div id="fh5co-header">
+			<header id="fh5co-header-section">
+				<div class="container">
+					<div class="nav-header">
+						<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+						<h1 id="fh5co-logo" ><a href="index.html">E - <span>Voting</span></a></h1>
+						<!-- <h1 id="fh5co-logo" style="background-image: url(images/home-image.png);"><a href="index.html">Online<span>Voting</span></a></h1> -->
+						<!-- START #fh5co-menu-wrap -->
+						<nav id="fh5co-menu-wrap" role="navigation">
+							<ul class="sf-menu" id="fh5co-primary-menu">
+								<li class="active">
+									<a href="/">होम</a>
+								</li>
+								<li><a href="lucknow.html"></a></li>
+								<li><a href="{% url 'account_register' %}">VOTER REGISTER </a></li>
+								<li><a href="{% url 'account_login' %}">LOGIN</a></li>
+								<li><a href="{% url 'partail' %}">PARTIES DETAILS</a></li>
+								<li><a href="{% url 'News' %}">NEWS</a></li>
+								<li><a href="badikhabar.html">HELP DESK</a></li>
+								<li><a href="{% url 'feedback'%}">FEEDBACK</a></li>
+								
+							
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</header>
+			
+		</div>
+		<div class="fh5co-hero">
+			<div class="fh5co-overlay"></div>
+			<div class="fh5co-cover text-center" data-stellar-background-ratio="0.5" background="{%static '12.jpg'%}">
+				<div class="desc animate-box">
+					<h2>ONLINE VOTING SYSTEM  </h2>
+					<span><B>EVERY VOTE COUNT</B></span>
+					<span><a class="btn btn-primary" href="{% url 'account_login' %}">ADMIN LOGIN </a></span>
+				</div>
+			</div>
+
+		</div>
+
+		
+		
+		<!-- end:header-top -->
+
+	
+		<!-- fh5co-blog-section -->
+		
+		
+	
+
+	</div>
+	<!-- END fh5co-page -->
+
+	</div>
+	<!-- END fh5co-wrapper -->
+
+	<!-- jQuery -->
+
+
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Stellar -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Superfish -->
+	<script src="js/hoverIntent.js"></script>
+	<script src="js/superfish.js"></script>
+
+	<!-- Main JS (Do not remove) -->
+	<script src="{% static 'main.js'%}"></script>
+
+	</body>
+</html>
+
